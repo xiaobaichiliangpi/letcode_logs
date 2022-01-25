@@ -51,8 +51,8 @@ var isPalindrome2 = function(x) {
 
 // isPalindrome2(123)
 runTest(isPalindrome2, [
-    [121, true],
-    [10, false],
-    [-101, false],
-    [9999889999, true],
+    [121, true].reverse(),
+    [10, false].reverse(),
+    [-101, false].reverse(),
+    [9999889999, true].reverse(),
 ])

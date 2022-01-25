@@ -46,6 +46,6 @@ var isPerfectSquare = (num) => {
 }
 
 runTest(isPerfectSquare, [
-    [16, true],
-    [14, false]
+    [16, true].reverse(),
+    [14, false].reverse()
 ])

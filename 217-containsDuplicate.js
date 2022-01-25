@@ -18,7 +18,7 @@ var containsDuplicate = (nums) => {
 }
 
 runTest(containsDuplicate, [
-    [[1,2,3,1], true],
-    [[1,2,3,4], false],
-    [[1,1,1,3,3,4,3,2,4,2], true],
+    [[1,2,3,1], true].reverse(),
+    [[1,2,3,4], false].reverse(),
+    [[1,1,1,3,3,4,3,2,4,2], true].reverse(),
 ])

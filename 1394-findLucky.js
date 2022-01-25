@@ -22,9 +22,9 @@ var findLucky = function(arr) {
 
 const runTest =  require('./test.js')
 runTest(findLucky, [
-    [[2,2,3,4], 2],
-    [[1,2,2,3,3,3], 3],
-    [[2,2,2,3,3], -1],
-    [[5], -1],
-    [[7,7,7,7,7,7,7], 7]
+    [[2,2,3,4], 2].reverse(),
+    [[1,2,2,3,3,3], 3].reverse(),
+    [[2,2,2,3,3], -1].reverse(),
+    [[5], -1].reverse(),
+    [[7,7,7,7,7,7,7], 7].reverse()
 ])

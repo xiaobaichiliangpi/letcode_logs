@@ -83,9 +83,9 @@ var lengthOfLongestSubstring = function(s) {
 // console.log(lengthOfLongestSubstring("tmmzuxt"))
 
 runTest(lengthOfLongestSubstring, [
-    ['abcabcbb', 3],
-    ['bbbbb', 1],
-    ['pwwkew', 3],
-    ['', 0],
-    [' ', 1],
+    ['abcabcbb', 3].reverse(),
+    ['bbbbb', 1].reverse(),
+    ['pwwkew', 3].reverse(),
+    ['', 0].reverse(),
+    [' ', 1].reverse(),
 ])

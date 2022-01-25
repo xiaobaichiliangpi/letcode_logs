@@ -44,5 +44,5 @@ var numColor = function(root) {
 
 const runTest =  require('./test.js')
 runTest(numColor, [
-    [{ val: 1, left: { val: 3, left: null, right: { val: 2, left: null, right: null } }, right: { val: 1, left: null, right: { val: 2, left: null, right: null } }  }, 3]
+    [{ val: 1, left: { val: 3, left: null, right: { val: 2, left: null, right: null } }, right: { val: 1, left: null, right: { val: 2, left: null, right: null } }  }, 3].reverse()
 ])
